@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+# spring security 默认的用户名是 user，密码是一串 UUID 字符串，启动时输出到控制台日志中。
+spring:
+  security:
+    user:
+      name: user
+      password: 123456
